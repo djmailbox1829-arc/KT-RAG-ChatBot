@@ -1,0 +1,6 @@
+# Optional: stronger name/location detection with Microsoft Presidio (runs locally, no network calls).
+# Install:  pip install -r requirements-presidio.txt
+# Then:     python -m spacy download en_core_web_lg      (about 600 MB)
+# And set:  PHI_NER_ENGINE=presidio  in .env
+presidio-analyzer>=2.2,<3
+spacy>=3.7,<4
